@@ -3,18 +3,28 @@
   <head>
     <meta charset="utf-8">
 
-    <title></title>
+    <title>GALAXY</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
 
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
+    <audio  id= 'start' src = 'music/start.mp3' autoplay='autoplay' loop="true"></audio>
     <div id="game-over-overlay">
+    </div>
+
+    <div id ="game-start"> 
+    <h1>GALAXY vol. 2</h1> 
+    <button id = "play-game">Играть</button> 
+    
+
     </div>
 
     <div id="game-over">
       <h1>ИГРА ОКОНЧЕНА</h1>
+      <div id = 'final'></div> <br />
+      <br />
       <button id="play-again">Играть снова</button>
     </div>
 
